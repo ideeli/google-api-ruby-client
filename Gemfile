@@ -4,7 +4,7 @@ gemspec
 
 gem 'signet', '>= 0.4.5'
 gem 'addressable', '>= 2.3.2'
-gem 'uuidtools', '>= 2.1.0'
+gem 'uuidtools', '~> 1.0.7'
 gem 'autoparse', '>= 0.3.3'
 gem 'faraday', '~> 0.8.4'
 gem 'multi_json', '>= 1.0.0'

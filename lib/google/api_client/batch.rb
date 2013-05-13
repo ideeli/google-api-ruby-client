@@ -91,7 +91,7 @@ module Google
         @last_auto_id = 0
         
         # TODO(sgomes): Use SecureRandom.uuid, drop UUIDTools when we drop 1.8
-        @base_id = UUIDTools::UUID.random_create.to_s
+        @base_id = UUID.random_create.to_s
 
         options[:uri] ||= 'https://www.googleapis.com/batch'
         options[:http_method] ||= 'POST'

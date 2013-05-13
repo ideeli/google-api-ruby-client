@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<signet>, [">= 0.4.4"])
       s.add_runtime_dependency(%q<addressable>, [">= 2.3.2"])
-      s.add_runtime_dependency(%q<uuidtools>, [">= 2.1.0"])
+      s.add_runtime_dependency(%q<uuidtools>, ["~> 1.0.7"])
       s.add_runtime_dependency(%q<autoparse>, [">= 0.3.3"])
       s.add_runtime_dependency(%q<faraday>, ["~> 0.8.4"])
       s.add_runtime_dependency(%q<multi_json>, [">= 1.0.0"])
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<signet>, [">= 0.4.4"])
       s.add_dependency(%q<addressable>, [">= 2.3.2"])
-      s.add_dependency(%q<uuidtools>, [">= 2.1.0"])
+      s.add_dependency(%q<uuidtools>, ["~>1.0.7"])
       s.add_dependency(%q<autoparse>, [">= 0.3.3"])
       s.add_dependency(%q<faraday>, ["~> 0.8.4"])
       s.add_dependency(%q<multi_json>, [">= 1.0.0"])
@@ -49,7 +49,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<signet>, [">= 0.4.4"])
     s.add_dependency(%q<addressable>, [">= 2.3.2"])
-    s.add_dependency(%q<uuidtools>, [">= 2.1.0"])
+    s.add_dependency(%q<uuidtools>, ["~> 1.0.7"])
     s.add_dependency(%q<autoparse>, [">= 0.3.3"])
     s.add_dependency(%q<faraday>, ["~> 0.8.4"])
     s.add_dependency(%q<multi_json>, [">= 1.0.0"])
